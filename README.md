@@ -41,28 +41,20 @@ The goal of this project was to strengthen my understanding of **utility-first s
 
 ## 📂 Folder Structure
 razorpay-clone/
-│
-├── index.html
-├── script.js
-├── images/
-└── README.md
+-│
+-├── index.html
+-├── script.js
+-├── images/
+-└── README.md
 
 ##🧠 Key Learnings
-
 - Understanding Tailwind’s utility-first workflow
-
 - Structuring large layouts without traditional CSS files
-
 - Managing responsive breakpoints effectively
-
 - Writing cleaner and faster UI styling code
 
 ##🔮 Future Improvements
-
 - Convert into full-stack MERN application
-
 - Integrate real payment API simulation
-
 - Add authentication flow
-
 - Improve micro-interactions and animations
