@@ -158,7 +158,7 @@
 
         <button class="relative bg-lightBlue flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-mulish font-bold hover:bg-lightBlue-500 transition-all duration-200 cursor-pointer group">
           Sign Up Now
-          <div class="bg-greenLight absolute w-12 h-[58px] right-7 skew-x-[20deg] flex justify-center items-center group-hover:-skew-x-[20deg] duration-200">
+          <div class="hidden md:flex bg-greenLight absolute w-12 h-[58px] right-7 skew-x-[20deg] flex justify-center items-center group-hover:-skew-x-[20deg] duration-200">
             &#8594;
           </div>
         </button>
@@ -171,7 +171,7 @@
     </div>
 
     <!-- shape -->
-    <div class="absolute left-0 right-0 w-full">
+    <div class="hidden md:flex absolute left-0 right-0 w-full">
       <img class="w-full" src="./asset/hero-shape.svg" alt="">
     </div>
   </section>
@@ -179,7 +179,7 @@
   <!-- ✅ Features Section 1-->
   <section class="w-full relative mt-[90px] overflow-hidden">
     <img src="./asset/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
-      class="absolute -top-[2rem] left-[10rem]">
+      class="hidden md:flex absolute -top-[2rem] left-[10rem]">
     <img src="./asset/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
       class="absolute top-[3rem] right-0 rotate-180">
 
@@ -700,7 +700,7 @@
       </section>
 
       <div class="flex flex-col lg:flex-row justify-between items-center w-full mx-auto border border-slate-700 mt-24 gap-6 p-8 relative rounded-md">
-        <p class="text-white font-mulish text-1xl leading-1.5 text-center lg:text-left">
+        <p class="text-white font-mulish text-1xl leading-4  text-center space-y-5 lg:text-left">
           Check out the live demo to learn how RazorpayX works.
           <span class="font-extrabold text-1xl">No sign-up required !</span>
         </p>
@@ -841,7 +841,7 @@
 
   <!-- ✅ Features section 4-->
   <section class="bg-white bg-[url(./asset/core-features-sectionBg.svg)] bg-center bg-cover bg-no-repeat z-10 mt-14 featuressection4">
-    <div class="max-w-[1080px] relative w-11/12 mx-auto pt-4">
+    <div class="max-w-[1080px] relative w-11/12 mx-auto pt-4 mt-[90px] md:mt-[0px]">
       <h1 class="font-mulish font-extrabold text-center leading-1.2 text-2xl text-white">Features</h1>
       <div class="w-6 h-1 bg-greenLight mx-auto mt-2 mb-6"></div>
       <p class="font-mulish text-center text-white mx-auto">
@@ -961,7 +961,7 @@
 
   <!-- ✅ CTA section -->
   <section class="bg-[url(asset/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection">
-    <div class="w-11/12 max-w-[1080px] relative flex flex-col lg:flex-row justify-between items-center mx-auto gap-10">
+    <div class="w-11/12 max-w-[1080px] relative flex flex-col lg:flex-row justify-between items-center mx-auto gap-10 mt-[80px] md:mt-[0px]">
       <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
         <h2 class="font-mullish font-bold text-white text-2xl">Supercharge your business with Razorpay</h2>
         <div class="w-6 h-1 bg-greenLight"></div>
@@ -986,7 +986,7 @@
         </button>
       </div>
 
-      <img src="./asset/ctaImg.svg" alt="" loading="lazy" width="200" height="250" class="mt-10 lg:mt-16 pt-3">
+      <img src="./asset/ctaImg.svg" alt="" loading="lazy" width="200" height="250" class="hidden md:flex mt-10 lg:mt-16 pt-3">
     </div>
   </section>
 
