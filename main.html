@@ -6,8 +6,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="main.css" />
-  <title>Razorpay</title>
-  <link rel="icon" href="./asset/favicon.png" type="image/x-icon">
+  <title>Payment Landing Page (UI Demo)</title>
+  <!-- <link rel="icon" href="./asset/favicon.png" type="image/x-icon"> -->
   <!-- <link rel="shortcut icon" href="./asset/favicon.png" type="image/x-icon"> -->
   <script src="https://unpkg.com/feather-icons"></script>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -58,7 +58,10 @@
 
 
 <body class="overflow-x-hidden relative">
-
+<div style="background:#fff3cd;padding:12px;border:1px solid #ffeeba;font-family:Arial;">
+  <strong>Educational UI Demo:</strong> This is a front-end clone made for learning.
+  It is <strong>not affiliated with Razorpay</strong> and does not collect payments or credentials.
+</div>
   <!-- ✅ Navbar -->
   <nav class="bg-deepBlue sticky top-0 z-50">
     <div class="relative w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
@@ -1027,7 +1030,12 @@
         <p class="font-mullish uppercase font-bold text-gray2">
           Subscribe to our newsletter
         </p>
-        <form class="relative bg-white w-[260px] mt-2 mb-4">
+        <div class="relative bg-white w-[260px] mt-2 mb-4">
+  <p class="text-sm">Newsletter UI demo (no submission)</p>
+  <input placeholder="demo@example.com" disabled
+    class="pr-16 font-mullish border-gray-300 outline-lightBlue placeholder:text-sm py-2 px-4 border rounded-sm" />
+</div>
+        <!-- <form class="relative bg-white w-[260px] mt-2 mb-4">
           <input placeholder="Your email address"
             class="pr-16 font-mullish border-gray-300 outline-lightBlue focus:outline-lightBlue placeholder:text-sm py-2 px-4 border rounded-sm transition-all duration-200" />
           <button
@@ -1037,7 +1045,7 @@
               <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
             </svg>
           </button>
-        </form>
+        </form> -->
         <div class="flex items-start space-x-4">
           <img src="asset/footer-certificate-1.png" loading="lazy" width="92" height="40" class="cursor-pointer" />
           <img src="asset/footer-certificate-2.jpg" loading="lazy" width="122" height="80" class="cursor-pointer" />
